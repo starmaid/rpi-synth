@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-05T06:15:56.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="2FakgU0JYmbfJ8Sg6-iP" version="21.1.2" type="device" pages="2">
+<mxfile host="Electron" modified="2024-01-12T12:33:36.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="o_X9glYisPqY5LC_hsUp" version="21.1.2" type="device" pages="2">
   <diagram name="wiring" id="dv-ImXQaNlOPOEgyT08C">
-    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,10 +372,18 @@
         <mxCell id="JXXWKitzSrHFqrhd6y1X-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JXXWKitzSrHFqrhd6y1X-41" target="JXXWKitzSrHFqrhd6y1X-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="310" />
-              <mxPoint x="940" y="250" />
+              <mxPoint x="950" y="310" />
+              <mxPoint x="950" y="250" />
               <mxPoint x="1000" y="250" />
               <mxPoint x="1000" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbbFhj5Oy9RA1f7nq5Kr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXXWKitzSrHFqrhd6y1X-41" target="IbbFhj5Oy9RA1f7nq5Kr-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="310" />
+              <mxPoint x="950" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -397,9 +405,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="270" />
-              <mxPoint x="940" y="250" />
-              <mxPoint x="1000" y="250" />
-              <mxPoint x="1000" y="310" />
+              <mxPoint x="940" y="240" />
+              <mxPoint x="990" y="240" />
+              <mxPoint x="990" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -411,6 +419,14 @@
             <Array as="points">
               <mxPoint x="970" y="330" />
               <mxPoint x="970" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IbbFhj5Oy9RA1f7nq5Kr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JXXWKitzSrHFqrhd6y1X-44" target="IbbFhj5Oy9RA1f7nq5Kr-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="330" />
+              <mxPoint x="940" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -510,6 +526,15 @@
         </mxCell>
         <mxCell id="6aEAH4NCeJ9--XN21m6a-5" value="VERY IMPORTANT:&amp;nbsp;&lt;br&gt;DONT CONNECT TO RPI 5V&lt;br&gt;DRAWS LOTS OF CURRENT&lt;br&gt;CONNECT TO SOURCE INSTEAD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="975" y="135" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IbbFhj5Oy9RA1f7nq5Kr-1" value="1/4 in TS Audio Jack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IbbFhj5Oy9RA1f7nq5Kr-2" value="TIP" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbbFhj5Oy9RA1f7nq5Kr-3" value="SLV" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="420" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xGx8ktveZpSdJoxzawRI-22" value="conectors" parent="0" visible="0" />
         <mxCell id="xGx8ktveZpSdJoxzawRI-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" parent="xGx8ktveZpSdJoxzawRI-22" vertex="1">
