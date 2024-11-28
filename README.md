@@ -22,6 +22,7 @@ dtparam=i2s=on
 #dtparam=audio=on
 
 # edit this line to add the audio=off part
+# https://github.com/raspberrypi/linux/issues/2489
 dtoverlay=vc4-kms-v3d,audio=off
 dtoverlay=hifiberry-dac
 ```
