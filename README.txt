@@ -1,3 +1,64 @@
+# Setup Keys Pi
+
+The TFT touch screen i was using was a piece of garbage that the manufacturer doesn't even support anymore. This is why I am now writing a second version of this setup giude that uses the latest kernel and rpios version.
+
+
+### Install stuff
+
+```
+wget https://warmplace.ru/soft/sunvox/sunvox-2.1.2.zip
+unzip sunvox-2.1.2.zip
+sudo apt install jackd a2jmidid
+```
+
+
+### Edit `/boot/firmware/config.txt`
+
+```
+# uncomment this
+dtparam=i2s=on
+
+# comment this
+#dtparam=audio=on
+
+# edit this line to add the audio=off part
+dtoverlay=vc4-kms-v3d,audio=off
+dtoverlay=hifiberry-dac
+```
+
+
+### JACK Config
+
+start qjackctl and open it (needs a graphical UI environment)
+
+~/.config/rncbc.org/QjackCtl.conf
+
+```
+[Settings]
+...
+Driver=alsa
+Frames=256
+...
+SampleRate=44100
+```
+
+### Sunvox settings
+
+
+
+https://warmplace.ru/soft/sunvox/sunvox_config.ini
+
+```
+audiodriver jack
+buffer 512
+fullscreen
+```
+
+
+## The Old Settings
+
+I wrote these originally when i was trying to use that keidei screen. Some things changed (VC4 fkms driver, namely)
+
 keys2.local
 
 starting with raspbian buster (not latest)
